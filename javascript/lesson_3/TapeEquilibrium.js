@@ -4,6 +4,7 @@ function solution(A) {
   for(index=1;index<A.length;index++){
   	right+=A[index];
   }
+  
   var left=A[0];
   var min=Math.abs(left-right);
   var value=0;
