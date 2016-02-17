@@ -1,5 +1,5 @@
 function solution(A) {
-  A.sort();
+  A.sort(function(a,b){return a-b});
   
   var result = (A[0] === 1);
 
